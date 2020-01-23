@@ -36,7 +36,7 @@ Docker é uma plataforma desenvolvida sobre LXC para virtualização, seu princi
 ```bash
  docker pull nginx:alpine
  docker images | grep alpine 
- docker run -d --name nginx --memory="10m" --cpus="0.5" -p 80:80 ginx:alpine 
+ docker run -d --name nginx --memory="10m" --cpus="0.5" -p 80:80 nginx:alpine 
  docker ps 
  docker stats 
  docker logs
@@ -61,7 +61,7 @@ Docker é uma plataforma desenvolvida sobre LXC para virtualização, seu princi
  npm i && ng build
  docker build -f ./Dockerfile -t nonnemacher/lt-angular:latest .
  docker image | grep lt-angular
- docker run -d --name lt-spring --memory="10m" --cpus="0.5" -p 80:80 nonnemacher/lt-angular:latest
+ docker run -d --name lt-angular --memory="10m" --cpus="0.5" -p 80:80 nonnemacher/lt-angular:latest
 ```
 
 ### Docker Compose
