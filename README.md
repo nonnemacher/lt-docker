@@ -6,15 +6,15 @@ Docker é uma plataforma desenvolvida sobre LXC para virtualização, seu princi
 
 ## Quais as vantagens de usar?
 
-Isolamento
-Economia de recursos** 
-Disponibilidade 
-Padronização 
+- Isolamento
+- Economia de recursos** 
+- Disponibilidade 
+- Padronização 
 
 ## Ok é bom, e desvantagens?
 
-Gerenciamento
-Tamanho** 
+- Gerenciamento
+- Tamanho** 
 
 ### Comandos básicos
 
